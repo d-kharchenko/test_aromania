@@ -210,6 +210,8 @@ body {
     display: block;
     width: 25px;
     padding: 0; }
+  .header-info__mob-icon a {
+      width: 35px; }
   .header-contacts {
     display: none; }
   .header-auth {
