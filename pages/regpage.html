@@ -24,8 +24,8 @@
 								<li class="header-info__mob-icon"><a href="#header-menu" title="" uk-toggle><img src="../img/menu-icon.png" alt="меню"></a></li>
 							    <li><a href="/"><img class="header-logo" src="../img/aromania-logo.png" alt="Aromamania"></a></li>
 							    <li class="header-info__hide-item"><a href="payment.html">Оплата</a></li>
-							    <li class="header-info__hide-item"><a href="#">Доставка</a></li>
-							    <li class="header-info__hide-item"><a href="contacts.html">Контакти</a></li>
+							    <li class="header-info__hide-item"><a href="delivery.html">Доставка</a></li>
+							    <li class="header-info__hide-item"><a href="#">Контакти</a></li>
 							    <li class="header-info__mob-icon">
 							    	<div class="uk-inline">
 									    <button class="subnav-block__btn" type="button"></button>
@@ -93,7 +93,7 @@
 						    		<div class="uk-modal-dialog" uk-overflow-auto>
 						    			<button class="uk-modal-close-default" type="button" uk-close></button>
 						    			<div class="uk-modal-header">
-								            <h2 class="uk-modal-title">Ваше замовлення</h2>
+								            <h2 class="uk-modal-title basket-modal__title">Ваше замовлення</h2>
 								        </div>
 								        <form>
 									        <div class="uk-modal-body modal-order uk-padding-remove-horizontal" uk-overflow-auto>
@@ -124,9 +124,9 @@
 									           	</li>
 									           </ul>
 									        </div>
-											<div class="uk-modal-footer uk-text-right">
-									            <button class="uk-button uk-button-default uk-modal-close" type="button">Продовжити покупки</button>
-									            <button class="uk-button uk-button-primary" type="button">Оформити замовлення</button>
+											<div class="uk-modal-footer uk-text-center">
+									            <button class="basket-modal__btn uk-button uk-button-default uk-modal-close" type="button">Продовжити покупки</button>
+									            <button class="basket-modal__btn uk-button uk-button-primary" type="button">Оформити замовлення</button>
 									        </div>
 								    	</form>
 						    		</div>
@@ -150,19 +150,26 @@
 			</div>
 		</div>
 		<div class="uk-section">
-			<div class="delivery-block uk-container">
-				<h3 class="uk-text-center">Доставка</h3>
-				<p class="delivery-block__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim niam,is nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="uk-container">
+				<h2 class="uk-text-center">Реєстрація</h2>
 				<hr>
-				<div class="delivery-type">
-					<ul class="uk-list">
-						<li><img src="../img/nova-poshta-logo.png" alt="" style="max-width: 30px;"> Нова пошта</li>
-						<li><img src="../img/ukrposhta-logo.png" alt="" style="max-width: 30px;"> Укрпошта</li>
-						<li><img src="../img/delivery-logo.png" alt="" style="max-width: 30px;"> Делівері</li>
-					</ul>
+				<div class="reg-block">
+					<form class="reg-form uk-text-center">
+						<legend class="uk-margin-top">Прізище та ім'я</legend>
+						<input class="uk-input uk-form-small" type="text" name="" value="" required>
+						<legend class="uk-margin-top">Номер телефону</legend>
+						<input class="uk-input uk-form-small" type="tel" name="" value="" required>
+						<legend class="uk-margin-top">e-mail</legend>
+						<input class="uk-input uk-form-small" type="email" name="" value="" required>
+						<legend class="uk-margin-top">Пароль</legend>
+						<input class="uk-input uk-form-small" type="password" name="" value="" required>
+						<legend class="uk-margin-top">Повторіть пароль</legend>
+						<input class="uk-input uk-form-small" type="password" name="" value="" required>
+						<input class="uk-button uk-button-default uk-margin-top" type="submit" name="" value="Зареєструватися">
+					</form>
 				</div>
 				<hr>
-			</div>
+			</div>	
 		</div>
 		<footer class="uk-position-relative">
 			<div class="uk-container">
